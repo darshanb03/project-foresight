@@ -7,8 +7,6 @@ Run locally:
     streamlit run app/streamlit_app.py
 """
 
-from __future__ import annotations
-
 # ── PATH FIX (must happen before any src imports) ──────────────────────────
 import os
 import sys
