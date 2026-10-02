@@ -1,0 +1,58 @@
+{
+  "folds": [
+    {
+      "fold": 1,
+      "train_until": "2025-10-20",
+      "test_from": "2025-10-27",
+      "test_to": "2025-12-15",
+      "n_test_rows": 1600,
+      "model_wape": 0.15821502605831533,
+      "baseline_wape": 0.19734181197195758,
+      "model_mape": 0.25666162995667485,
+      "model_bias": 0.00045377825648138865,
+      "baseline_bias": -0.043130954520941935
+    },
+    {
+      "fold": 2,
+      "train_until": "2025-08-25",
+      "test_from": "2025-09-01",
+      "test_to": "2025-10-20",
+      "n_test_rows": 1600,
+      "model_wape": 0.1517758201143606,
+      "baseline_wape": 0.20910477330710794,
+      "model_mape": 0.24471349082670785,
+      "model_bias": 0.023486065950391172,
+      "baseline_bias": -0.03005943472869543
+    },
+    {
+      "fold": 3,
+      "train_until": "2025-06-30",
+      "test_from": "2025-07-07",
+      "test_to": "2025-08-25",
+      "n_test_rows": 1600,
+      "model_wape": 0.1637720326871743,
+      "baseline_wape": 0.21251760437304562,
+      "model_mape": 0.23784570451406292,
+      "model_bias": -0.02821394975852803,
+      "baseline_bias": -0.05139283412503282
+    },
+    {
+      "fold": 4,
+      "train_until": "2025-05-05",
+      "test_from": "2025-05-12",
+      "test_to": "2025-06-30",
+      "n_test_rows": 1600,
+      "model_wape": 0.2022755526352936,
+      "baseline_wape": 0.23161788356384688,
+      "model_mape": 0.30800992083490736,
+      "model_bias": 0.10911534491349546,
+      "baseline_bias": -0.08848504342232229
+    }
+  ],
+  "mean_model_wape": 0.16900960787378597,
+  "mean_baseline_wape": 0.21264551830398953,
+  "improvement_vs_baseline_pct": 20.52049381441626,
+  "model_beats_baseline": true,
+  "horizon_weeks": 8,
+  "metric": "WAPE (lower is better)"
+}

@@ -1,0 +1,40 @@
+{
+  "sku_master": {
+    "rows_in": 200,
+    "rows_out": 200,
+    "duplicate_sku_ids_dropped": 0,
+    "category_labels_normalised": true,
+    "unit_cost_imputed_from_category_median": 8
+  },
+  "sales_daily": {
+    "rows_in": 146700,
+    "rows_out": 146200,
+    "unparseable_dates_dropped": 0,
+    "exact_duplicate_rows_dropped": 500,
+    "negative_units_floored_to_zero": 200,
+    "missing_unit_price_filled_within_sku": 584,
+    "missing_revenue_recomputed": 1169,
+    "sku_day_rows_collapsed": 0
+  },
+  "calendar": {
+    "rows_out": 731,
+    "promo_event_nulls_labelled_None": true
+  },
+  "inventory_snapshots": {
+    "rows_in": 5200,
+    "rows_out": 5200,
+    "missing_on_hand_forward_filled": 52,
+    "missing_lead_time_filled": 26
+  },
+  "integrity": {
+    "sku_ids_in_sales_missing_from_master": 0,
+    "skus_without_inventory_snapshot": 0,
+    "weekly_rows": 20800,
+    "weeks_covered": 104,
+    "skus_covered": 200,
+    "date_range": [
+      "2024-01-01",
+      "2025-12-22"
+    ]
+  }
+}

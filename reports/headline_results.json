@@ -1,0 +1,37 @@
+{
+  "backtest": {
+    "mean_model_wape": 0.16900960787378597,
+    "mean_baseline_wape": 0.21264551830398953,
+    "improvement_vs_baseline_pct": 20.52049381441626,
+    "model_beats_baseline": true
+  },
+  "risk": {
+    "skus_scored": 200,
+    "quadrant_counts": {
+      "Healthy": 169,
+      "Markdown / clear": 18,
+      "Reorder now": 13
+    },
+    "total_sales_at_risk_inr": 12808008.559999999,
+    "total_capital_locked_inr": 13818838.71,
+    "total_value_at_stake_inr": 26626847.27,
+    "top_10_value_share_pct": 64.24747634044621,
+    "skus_missing_stock_data": 0
+  },
+  "eda": {
+    "demand_trend_pct": 8.101795132375447,
+    "top_20pct_skus_revenue_share": 60.395589319814356,
+    "dead_sku_count": 0,
+    "dead_sku_pct": 0.0,
+    "peak_week": 26,
+    "trough_week": 3,
+    "peak_vs_trough_ratio": 2.7373333333333334,
+    "promo_lift_pct": 79.66178326847168,
+    "zero_demand_week_share_pct": 4.456730769230769,
+    "median_sku_cv": 0.5265555517489751,
+    "volatile_sku_pct": 6.0,
+    "top_category": "Decor",
+    "top_category_revenue_share_pct": 26.674193831857252,
+    "skus_under_12_weeks_of_sales": 0
+  }
+}

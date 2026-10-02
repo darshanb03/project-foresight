@@ -1,0 +1,16 @@
+{
+  "demand_trend_pct": 8.101795132375447,
+  "top_20pct_skus_revenue_share": 60.395589319814356,
+  "dead_sku_count": 0,
+  "dead_sku_pct": 0.0,
+  "peak_week": 26,
+  "trough_week": 3,
+  "peak_vs_trough_ratio": 2.7373333333333334,
+  "promo_lift_pct": 79.66178326847168,
+  "zero_demand_week_share_pct": 4.456730769230769,
+  "median_sku_cv": 0.5265555517489751,
+  "volatile_sku_pct": 6.0,
+  "top_category": "Decor",
+  "top_category_revenue_share_pct": 26.674193831857252,
+  "skus_under_12_weeks_of_sales": 0
+}
