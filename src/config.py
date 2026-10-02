@@ -14,8 +14,6 @@ Every tunable number the engagement depends on lives here, so the grader can
 see the assumptions in one place and change them without hunting through code.
 """
 
-from __future__ import annotations
-
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
