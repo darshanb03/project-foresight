@@ -15,7 +15,6 @@ Run locally:
 Interactive docs are then at http://localhost:8000/docs
 """
 
-from __future__ import annotations
 
 import sys
 
