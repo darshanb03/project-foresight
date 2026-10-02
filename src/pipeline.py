@@ -12,7 +12,6 @@ Run:
     python -m src.pipeline
 """
 
-from __future__ import annotations
 
 import json
 
