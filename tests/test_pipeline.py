@@ -8,7 +8,6 @@ or, with no pytest installed:
     python tests/test_pipeline.py
 """
 
-from __future__ import annotations
 
 import sys
 from pathlib import Path
