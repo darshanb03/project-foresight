@@ -30,7 +30,6 @@ Run:
     python -m src.forecast
 """
 
-from __future__ import annotations
 
 import json
 
