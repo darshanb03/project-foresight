@@ -7,7 +7,6 @@ calculation and the notebooks can never drift from what actually ran.
     python tools/build_notebooks.py
 """
 
-from __future__ import annotations
 
 import json
 
