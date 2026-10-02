@@ -8,8 +8,6 @@ Run:
     python -m src.eda
 """
 
-from __future__ import annotations
-
 import json
 
 import matplotlib
