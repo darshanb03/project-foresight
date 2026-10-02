@@ -8,7 +8,6 @@ criterion D1.3. A grader should be able to clone the repo, install
 requirements, run this, and land on the same headline numbers.
 """
 
-from __future__ import annotations
 
 import json
 import sys
